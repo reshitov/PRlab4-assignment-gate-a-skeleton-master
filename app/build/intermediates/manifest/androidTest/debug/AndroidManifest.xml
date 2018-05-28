@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.company.gate_a.test">
+
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="22" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.company.gate_a"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.company.gate_a"/>
+</manifest>
